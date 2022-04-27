@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <filter id="Pfad_13" x="-9" y="-8" width="40.8" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Icon-play">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Icon-play" clip-path="url(#clip-Icon-play)">
+    <rect width="24" height="24" fill="#fff"/>
+    <g id="Gruppe_120" data-name="Gruppe 120">
+      <g id="btn_play_pause" data-name="btn play/pause">
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Pfad_13)">
+          <path id="Pfad_13-2" data-name="Pfad 13" d="M1,0,23.8,12,1,24Z" transform="translate(-1 0)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

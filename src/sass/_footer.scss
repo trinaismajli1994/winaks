@@ -1,0 +1,50 @@
+footer {
+    border-top: 1px solid #2e2e2e;
+    background: $vampire-black;
+    .footer {
+        padding: 15px 10px;
+        text-align: center;
+        margin: auto;
+        @media (min-width: $sm) {
+            max-width: 1600px;
+            padding: 25px 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer-nav {
+            li {
+                padding-bottom: 10px;
+                @media (min-width: $sm) {
+                    padding-bottom: 0px;
+                }
+                a {
+                    text-transform: uppercase;
+                    color: $white;
+                    font-size: 17px;
+
+                }
+            }
+        }
+        p {
+            color: $white;
+            margin: 0px;
+        }
+        .socials {
+            margin-top: 10px;
+            @media (min-width: $sm) {
+                margin-top: 0px;
+            }
+            li {
+                display: inline-flex;
+                padding-right: 20px;
+                @media (min-width: $sm) {
+                    padding-right: 40px;
+                }
+                &:last-child {
+                    padding-right: 0px;
+                }
+            }
+        }
+        
+    }
+}

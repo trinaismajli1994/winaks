@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-search">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="search" clip-path="url(#clip-search)">
+    <rect width="30" height="30" fill="#fff"/>
+    <g id="Gruppe_3031" data-name="Gruppe 3031" transform="translate(6.27 6.5)">
+      <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(0)" fill="none" stroke="#3b3b3b" stroke-width="1">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="6.5" fill="none"/>
+      </g>
+      <path id="Pfad_312" data-name="Pfad 312" d="M1519,2413l6.59,6.59" transform="translate(-1507.068 -2401.068)" fill="none" stroke="#3b3b3b" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

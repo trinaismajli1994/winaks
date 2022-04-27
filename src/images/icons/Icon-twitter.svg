@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" d="M0,0H15.242V12.423H0Z"/>
+    </clipPath>
+    <clipPath id="clip-Icon-twitter">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Icon-twitter" clip-path="url(#clip-Icon-twitter)">
+    <rect width="24" height="24" fill="#fff"/>
+    <g id="Gruppe_3047" data-name="Gruppe 3047">
+      <rect id="Rechteck_1" data-name="Rechteck 1" width="24" height="24" fill="none"/>
+      <g id="_003-twitter-logo-silhouette" data-name="003-twitter-logo-silhouette" transform="translate(4.644 5.979)">
+        <g id="Clip_2-2" data-name="Clip 2" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <path id="Fill_1" data-name="Fill 1" d="M15.242,1.47a6.227,6.227,0,0,1-1.8.494A3.148,3.148,0,0,0,14.821.229a6.29,6.29,0,0,1-1.987.762A3.126,3.126,0,0,0,7.425,3.137a3.161,3.161,0,0,0,.081.715A8.868,8.868,0,0,1,1.062.573,3.148,3.148,0,0,0,2.03,4.761,3.117,3.117,0,0,1,.613,4.367v.039A3.138,3.138,0,0,0,3.121,7.483a3.154,3.154,0,0,1-.824.11,2.99,2.99,0,0,1-.589-.058,3.13,3.13,0,0,0,2.92,2.179A6.26,6.26,0,0,1,.746,11.054,6.621,6.621,0,0,1,0,11.011a8.817,8.817,0,0,0,4.793,1.412,8.851,8.851,0,0,0,8.9-8.926l-.01-.406A6.257,6.257,0,0,0,15.242,1.47Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

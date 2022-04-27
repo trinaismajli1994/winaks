@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-menu">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="menu" clip-path="url(#clip-menu)">
+    <rect width="30" height="30" fill="#fff"/>
+    <g id="Gruppe_549" data-name="Gruppe 549" transform="translate(-862 -185)">
+      <rect id="Rechteck_766" data-name="Rechteck 766" width="25" height="1" transform="translate(865 192)"/>
+      <rect id="Rechteck_767" data-name="Rechteck 767" width="25" height="1" transform="translate(865 208)"/>
+      <rect id="Rechteck_768" data-name="Rechteck 768" width="25" height="1" transform="translate(865 200)"/>
+    </g>
+  </g>
+</svg>

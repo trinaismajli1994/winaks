@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-close_x">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="close_x" data-name="close x" clip-path="url(#clip-close_x)">
+    <rect width="30" height="30" fill="#fff"/>
+    <g id="Gruppe_3113" data-name="Gruppe 3113" transform="translate(-637 375) rotate(-90)">
+      <rect id="Rechteck_861" data-name="Rechteck 861" width="30" height="30" transform="translate(345 637)" fill="#c6c6c6" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <g id="Gruppe_549" data-name="Gruppe 549" transform="translate(369.192 639.5) rotate(90)">
+        <rect id="Rechteck_766" data-name="Rechteck 766" width="25" height="1" transform="translate(4.015 0) rotate(45)" fill="#fff"/>
+        <rect id="Rechteck_767" data-name="Rechteck 767" width="25" height="1" transform="translate(3.308 17.678) rotate(-45)" fill="#fff"/>
+        <rect id="Rechteck_768" data-name="Rechteck 768" width="25" height="1" transform="translate(0 7)" fill="#fff" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

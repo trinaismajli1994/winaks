@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Icon-facebook">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Icon-facebook" clip-path="url(#clip-Icon-facebook)">
+    <rect width="24" height="24" fill="#fff"/>
+    <g id="Gruppe_3047" data-name="Gruppe 3047">
+      <rect id="Rechteck_1" data-name="Rechteck 1" width="24" height="24" fill="none"/>
+      <path id="_001-facebook-logo" data-name="001-facebook-logo" d="M7.093,0,5.325,0a3.122,3.122,0,0,0-3.27,3.391V4.954H.278A.279.279,0,0,0,0,5.236V7.5a.279.279,0,0,0,.278.281H2.055V13.5a.28.28,0,0,0,.278.282H4.652a.28.28,0,0,0,.279-.282V7.781H7.008A.28.28,0,0,0,7.287,7.5V5.236a.284.284,0,0,0-.082-.2.276.276,0,0,0-.2-.082H4.931V3.629c0-.637.15-.961.971-.961H7.093a.28.28,0,0,0,.278-.281V.284A.279.279,0,0,0,7.093,0Z" transform="translate(8.315 5.111)"/>
+    </g>
+  </g>
+</svg>

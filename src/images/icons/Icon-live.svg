@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Icon-live">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Icon-live" clip-path="url(#clip-Icon-live)">
+    <rect width="24" height="24" fill="#fff"/>
+    <g id="Gruppe_3112" data-name="Gruppe 3112" transform="translate(-32)">
+      <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(39 7.5)" fill="none" stroke="red" stroke-width="1.5">
+        <circle cx="5" cy="5" r="5" stroke="none"/>
+        <circle cx="5" cy="5" r="4.25" fill="none"/>
+      </g>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="2" cy="2" r="2" transform="translate(42 10.5)" fill="red"/>
+    </g>
+  </g>
+</svg>

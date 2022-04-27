@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" d="M0,0H20.165V13.87H0Z"/>
+    </clipPath>
+    <clipPath id="clip-Icon-youtube">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Icon-youtube" clip-path="url(#clip-Icon-youtube)">
+    <g id="Gruppe_3047" data-name="Gruppe 3047" fill="#fff">
+      <rect id="Rechteck_1" data-name="Rechteck 1" width="24" height="24" fill="none"/>
+      <g id="Gruppe_3114" data-name="Gruppe 3114" transform="translate(1.918 2.219)">
+        <g id="Gruppe_3075" data-name="Gruppe 3075" transform="translate(-0.111 1.156)">
+          <g id="_004-youtube" data-name="004-youtube" transform="translate(0.111 1.732)">
+            <g id="Clip_2-2" data-name="Clip 2" clip-path="url(#clip-path)">
+              <path id="Fill_1" data-name="Fill 1" d="M10.085,13.871c-2.469,0-5.625-.039-6.88-.112C1.992,13.676,1.4,13.487.853,12.526.271,11.533,0,9.758,0,6.942V6.936c0-2.854.263-4.58.853-5.6C1.4.37,2,.184,3.206.115,4.472.03,7.7,0,10.085,0S15.7.03,16.959.116c1.212.068,1.806.253,2.349,1.221.593,1.012.857,2.737.857,5.6v.01c0,2.86-.264,4.582-.856,5.585-.54.96-1.135,1.15-2.35,1.232C15.693,13.833,12.542,13.871,10.085,13.871ZM7.561,3.153h0v7.565l6.3-3.782-6.3-3.783Z" transform="translate(0 0)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

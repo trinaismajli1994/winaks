@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Icon-linkedin">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Icon-linkedin" clip-path="url(#clip-Icon-linkedin)">
+    <rect width="24" height="24" fill="#fff"/>
+    <g id="Gruppe_3047" data-name="Gruppe 3047">
+      <rect id="Rechteck_1" data-name="Rechteck 1" width="24" height="24" fill="none"/>
+      <path id="_001-linked-in-logo" data-name="001-linked-in-logo" d="M7.288,12.573H4.5c0-.066.037-7.7,0-8.483H7.288v1.2a.063.063,0,0,1-.008.014.067.067,0,0,0-.008.016h.016V5.292A2.757,2.757,0,0,1,9.8,3.891a3.008,3.008,0,0,1,2.3.932,4.154,4.154,0,0,1,.918,2.887v4.863H10.227V8.033c0-1.254-.488-1.918-1.412-1.918A1.539,1.539,0,0,0,7.383,7.147a1.934,1.934,0,0,0-.1.689v4.737Zm-4.331,0H.166V4.089h2.79v8.483Zm-1.4-9.64H1.543A1.456,1.456,0,0,1,0,1.467,1.46,1.46,0,0,1,1.579,0,1.457,1.457,0,0,1,3.14,1.467,1.46,1.46,0,0,1,1.56,2.933Z" transform="translate(5.886 6.024)"/>
+    </g>
+  </g>
+</svg>

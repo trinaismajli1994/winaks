@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-arrow-right">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="arrow-right" clip-path="url(#clip-arrow-right)">
+    <rect width="30" height="30" fill="#fff"/>
+    <g id="Gruppe_3113" data-name="Gruppe 3113" transform="translate(667 -345) rotate(90)">
+      <rect id="Rechteck_861" data-name="Rechteck 861" width="30" height="30" transform="translate(345 637)" fill="#c6c6c6" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <path id="Pfad_322" data-name="Pfad 322" d="M14139.887-1776.967l9.574,9.573,9.573-9.573" transform="translate(14509.46 -1120.181) rotate(-180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
