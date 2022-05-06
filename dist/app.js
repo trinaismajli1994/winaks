@@ -7,6 +7,10 @@
   \********************/
 /***/ (() => {
 
+// Loader
+jQuery(window).load(function () {
+  jQuery(".back-loader").fadeOut("slow");
+});
 jQuery(document).ready(function () {
   jQuery('.menu-btn').click(function (event) {
     jQuery(this).toggleClass('open');
@@ -16,9 +20,13 @@ jQuery(document).ready(function () {
 }); // Menu parent scripts
 
 jQuery('.sub-menu-first>ul').addClass("sub-parent");
+jQuery('.sub-menu-first>ul').append('<div class="close"><span class="x">x</span><span class="line"></span><span class="cl">close</span></div>');
 jQuery('.sub-menu-first ul').hide();
 jQuery('.sub-menu-first a').click(function () {
   jQuery(this).parent('.sub-menu-first').children("ul").slideToggle("200");
+});
+jQuery('.close').click(function () {
+  jQuery('.sub-menu-first ul').slideUp();
 }); // Menu child scripts
 
 jQuery('.sub-menu-second>ul').addClass("sub-child");

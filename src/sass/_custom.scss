@@ -6,6 +6,9 @@ html {
     scrollbar-width: none;  /* Firefox */
     &.no-scroll{
         overflow: hidden;
+        body {
+            overflow: hidden;
+        }
     }
     &::-webkit-scrollbar {
         display: none;
@@ -33,40 +36,43 @@ h1, h2, h3, h4, h5, p{
     font-weight: 500;
 }
 h1 {
-    font-size: 100px;
-    @media (min-width: $md) {
-        font-size: 188px;
-    }
-}
-h2 {
-    font-size: 50px;
+    font-size: 46px;
     @media (min-width: $sm) {
         font-size: 60px;
     }
+    @media (min-width: $xxl) {
+        font-size: 80px;
+    }
+}
+h2 {
+    font-size: 36px;
+    @media (min-width: $sm) {
+        font-size: 40px;
+    }
     @media (min-width: $md) {
-        font-size: 72px;
+        font-size: 40px;
     }
 }
 h3 {
-    font-size: 30px;
+    font-size: 26px;
     @media (min-width: $lg) {
-        font-size: 44px;
+        font-size: 32px;
     }
 }
 h4 {
-    font-size: 20px;
+    font-size: 16px;
     @media (min-width: $lg) {
-        font-size: 27px;
+        font-size: 18px;
     }
 }
 h5 {
-    font-size: 15px;
+    font-size: 14px;
     @media (min-width: $md) {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 p, .numb {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     @media (min-width: $md) {
@@ -108,9 +114,6 @@ a {
         border: 20px solid $vampire-black;
     }
     @media (min-width: $lg) {
-        padding: 70px 70px;
-    }
-    @media (min-width: $xl) {
         padding: 70px 70px;
     }
     @media (min-width: $xxl) {

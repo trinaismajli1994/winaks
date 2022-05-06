@@ -18,7 +18,7 @@
             <section class="section" id="sec1">
                     <div class="row">
                         <div class="banner animatedParent animateOnce" style="background-image: url('<?php echo $banner_image['url']?>" alt="<?php echo $banner_image['alt']?>');">
-                            <h2 class="animated fadeInUp go"><?php echo $banner_title ?></h2>
+                            <h1 class="animated fadeInUp go"><?php echo $banner_title ?></h1>
                         </div>
                     </div>
             </section>

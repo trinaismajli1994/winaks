@@ -10,6 +10,11 @@
   <?php wp_head();?>
 </head>
 <body>
+<div class="back-loader">
+  <div id="wrap">
+    <div class="loading"></div>
+  </div>
+</div>
 <header id="top">
   <nav class="navbar navbar-expand-lg fixed nav-justified">
     <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
