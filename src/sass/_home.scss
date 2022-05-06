@@ -293,11 +293,8 @@
         .scroll-top {
             position: absolute;
             right: 12px;
-            margin-top: -7px;
+            margin-top: -17px;
             z-index: 999;
-            @media (min-width: $md) {
-                margin-top: 3px;
-            }
         }
     }
 }

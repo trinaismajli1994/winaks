@@ -14136,13 +14136,8 @@ a:active, a:focus {
 .black-bg .our-partners .scroll-top {
   position: absolute;
   right: 12px;
-  margin-top: -7px;
+  margin-top: -17px;
   z-index: 999;
-}
-@media (min-width: 991px) {
-  .black-bg .our-partners .scroll-top {
-    margin-top: 3px;
-  }
 }
 
 .about {
