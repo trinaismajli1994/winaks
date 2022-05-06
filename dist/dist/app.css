@@ -13335,11 +13335,6 @@ h2, .h2 {
     font-size: 40px;
   }
 }
-@media (min-width: 991px) {
-  h2, .h2 {
-    font-size: 40px;
-  }
-}
 
 h3, .h3 {
   font-size: 26px;
@@ -14004,17 +13999,38 @@ a:active, a:focus {
   }
 }
 .points {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #fff;
-  z-index: 99999;
-  width: 144px;
-  text-align: center;
+  position: relative;
+  padding: 10px 0px;
   text-transform: uppercase;
   border: 1px solid #0B0B0B;
-  padding: 10px 0px;
+  width: 144px;
+  text-align: center;
+  margin: 30px auto 50px;
+}
+.points:after {
+  content: " ";
+  position: absolute;
+  height: 51px;
+  width: 2px;
+  background: #0B0B0B;
+  top: 100%;
+  left: 50%;
+}
+@media (min-width: 768px) {
+  .points:after {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .points {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    z-index: 99999;
+    margin: 0px;
+  }
 }
 .points h4, .points .h4 {
   font-size: 20px;
@@ -14024,17 +14040,19 @@ a:active, a:focus {
 .selling-point {
   background-color: #FFFFFF;
   width: 100%;
-  min-height: 380px;
   border: 1px solid #0B0B0B;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   transition: all 0.5s ease-in;
+  padding: 30px 15px;
 }
 @media (min-width: 768px) {
   .selling-point {
+    padding: 0px;
     width: 50%;
+    min-height: 380px;
   }
 }
 .selling-point h2, .selling-point .h2, .selling-point p {
@@ -14051,9 +14069,25 @@ a:active, a:focus {
   text-transform: uppercase;
   transition: font-size 1s;
   cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAAmCAYAAAB3c5OxAAAABHNCSVQICAgIfAhkiAAAA7lJREFUaEPtmM9LG1EQxydnhfai0Ev9AT15iYiop0YUPYgYLybqoQEV8WQRpP4KBMRi8JJAQEFDPfkLhFZREIS0IogXm4voSRsplCql9i+w833NWzfbbLLN5pLXDCybfUnmzWe+8+a9xPHw8PCRiD7z9d7hcHziu/LmYOgQU44mSe8BzxcS8YGTgGflDNAupoqZkAEeSUACvqhC7wAIg0PRJyZQYR4PqKS6hF5lsFcG6F/87GZYqK2USWgfU70zkEH9ZoaOK0XMMBL6Kb/+mYSDwjCUu5LgAjq5rlHGL6FuEhbPSoLroV8zZCWXM+5obk6+SfAEj1eqUuZ6aEDd67t0EhxbFhqaMmtbg1ZFRSscRWgrWVLhM0WlM6jo5fcqFFD5OzOsWlHa29bWFqytrX1e6NAXFxffdnZ2/Fag37DNsxU6MwWDQZqYmAgWoU2kLCpdyDWec3lHo1G6vLwkl8tFHR0dWg5isRjt7++L556eHqqvr6fx8XHx7PP5qKamJiVfiUSCIpGIGAsEAlRSUkL/4ls6Oz8/p8PDQzo6OqKDgwMxPDIyknbOnKEBsri4SHNzczQ6+uevNQB3dnaK1ysrK+T1YocjKi0tFffd3V1qbsaPt0dDsA0NDWLg+vqaysrKRJKs+sb3kCQZQ3t7O1VXV9PV1VUK/MLCgjZp3qChWH9/P8XjcQqHwzQwMKBNYhc6k++NjQ0aHBwkp9NJk5OTKVWHhA4PD4uYuCGR3+8XMeUFuq+vj7q7uzXnY2Njokyl2YHO5Pvu7k6bd3NzMwVYX/aykk5PT8Xysg2NDN7c3ND6+jr19vZSKBRKAbZT3tl8y+WEkl5aWhJLI50NDQ2J+GQF2oaWkwB4ZmaGKir+PqXmqnQ237K0Ab29vZ0WGIPyc4hxeXnZvtJyJnRKfbPQR2AX2sy3EcaMOu/QCOjk5ESsZ7PgcoXO5ntvb488Ho9oYsfHx6ZKG3cD2+WNLau1tVXbdoyd286azuYbjayqqkrAptsOMY7OL88G6AE4N+QFGnuk2R5tFzqbb/0eLbuzlBxJmZqaEk0MVSMPP3mD1jcMY+ZleWPiuro6rQxbWlro9vbW0uFErst0qs7Ozgr1YGhWjY2N4rSIA44c0zfZvEJjApT39PS0mExmXkIbFx1Ksry83BK0mW/pE5W2trYmVJWGBLjdbnFU1p8bcoY27RoF8EYROotIvq6urrdNTU3PCkDMjCGenZ392NraClj55wSO8CviRaFDc/xf+YpYhVaA9xHhv4T+DXb17KTj1Q9MAAAAAElFTkSuQmCC"), auto;
+  font-size: 32px;
+}
+@media (min-width: 768px) {
+  .selling-point h2, .selling-point .h2 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 991px) {
+  .selling-point h2, .selling-point .h2 {
+    font-size: 44px;
+  }
 }
 .selling-point h2.small-title, .selling-point .small-title.h2 {
-  font-size: 44px;
+  font-size: 34px;
+}
+@media (min-width: 768px) {
+  .selling-point h2.small-title, .selling-point .small-title.h2 {
+    font-size: 44px;
+  }
 }
 .selling-point .point-description {
   display: none;
@@ -14062,9 +14096,14 @@ a:active, a:focus {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding-top: 35px;
+  padding-top: 20px;
   width: 100%;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .selling-point .point-description .location, .selling-point .point-description .mobile-number, .selling-point .point-description .phone-number {
+    padding-top: 35px;
+  }
 }
 .selling-point .point-description .location p, .selling-point .point-description .location .numb, .selling-point .point-description .mobile-number p, .selling-point .point-description .mobile-number .numb, .selling-point .point-description .phone-number p, .selling-point .point-description .phone-number .numb {
   padding-left: 20px;
@@ -14308,6 +14347,7 @@ article .left-side .pgcu-carousel-nav .pgcu-carousel-nav__btn {
   height: 43px;
   border: 0px !important;
   z-index: 9999999;
+  outline: 0;
 }
 article .left-side .pgcu-carousel-nav .pgcu-carousel-nav__btn svg {
   display: none !important;
